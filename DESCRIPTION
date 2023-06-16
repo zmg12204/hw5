@@ -6,4 +6,4 @@ Date: 2023-06-15
 Author: Zach George
 Maintainer: Zach George <zmg12204@gmail.com>
 Description: It allows me to pass MATH 321
-License: -
+License: use_mit_license("Zachary George")
