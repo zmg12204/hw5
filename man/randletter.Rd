@@ -2,28 +2,30 @@
 \alias{randletter}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-Random Letter
+%%  ~~function to do ... ~~
 }
 \description{
-This function generates a random letter
+%%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
 randletter()
 }
 %- maybe also 'usage' for other objects documented here.
-\arguments{
-}
 \details{
 %%  ~~ If necessary, more details than the description above ~~
 }
 \value{
-A random letter.
+%%  ~Describe the value returned
+%%  If it is a LIST, use
+%%  \item{comp1 }{Description of 'comp1'}
+%%  \item{comp2 }{Description of 'comp2'}
+%% ...
 }
 \references{
 %% ~put references to the literature/web site here ~
 }
 \author{
-Zachary George
+%%  ~~who you are~~
 }
 \note{
 %%  ~~further notes~~
@@ -40,9 +42,10 @@ Zachary George
 ##--	or do  help(data=index)  for the standard data sets.
 
 ## The function is currently defined as
-function () {
-  letters[ceiling(runif(1,0,26))]
-}
+function () 
+{
+    letters[ceiling(runif(1, 0, 26))]
+  }
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory (show via RShowDoc("KEYWORDS")):

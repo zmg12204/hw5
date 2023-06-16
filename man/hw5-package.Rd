@@ -1,29 +1,30 @@
-\name{homework5-package}
-\alias{homework5-package}
-\alias{homework5}
+\name{hw5-package}
+\alias{hw5-package}
+\alias{hw5}
 \docType{package}
 \title{
-\packageTitle{homework5}
+\packageTitle{hw5}
 }
 \description{
-\packageDescription{homework5}
+\packageDescription{hw5}
 }
 \details{
 
 The DESCRIPTION file:
-\packageDESCRIPTION{homework5}
-\packageIndices{homework5}
+\packageDESCRIPTION{hw5}
+\packageIndices{hw5}
 ~~ An overview of how to use the package, including the most important functions ~~
 }
 \author{
-\packageAuthor{homework5}
+\packageAuthor{hw5}
 
-Maintainer: \packageMaintainer{homework5}
+Maintainer: \packageMaintainer{hw5}
 }
 \references{
 ~~ Literature or other references for background information ~~
 }
-~~ Optionally other standard keywords, one per line, from file KEYWORDS in the R documentation directory ~~
+~~ Optionally other standard keywords, one per line, from file KEYWORDS in the R documentation ~~
+~~ directory ~~
 \keyword{ package }
 \seealso{
 ~~ Optional links to other man pages, e.g. ~~
