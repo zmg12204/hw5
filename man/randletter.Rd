@@ -1,26 +1,23 @@
-\name{we}
-\alias{we}
+\name{randletter}
+\alias{randletter}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-We
+Random Letter
 }
 \description{
-This function squares a number.
+This function generates a random letter
 }
 \usage{
-we(x)
+randletter()
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x}{
-      Number to be squared
-}
 }
 \details{
 %%  ~~ If necessary, more details than the description above ~~
 }
 \value{
-Square of x
+A random letter.
 }
 \references{
 %% ~put references to the literature/web site here ~
@@ -43,10 +40,9 @@ Zachary George
 ##--	or do  help(data=index)  for the standard data sets.
 
 ## The function is currently defined as
-function (x) 
-{
-    return(x^2)
-  }
+function () {
+  letters[ceiling(runif(1,0,26))]
+}
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory (show via RShowDoc("KEYWORDS")):
